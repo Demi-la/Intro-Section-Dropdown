@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@700;800&family=Manrope:wght@700;800&family=Raleway:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+.section{
+    background-color: hsl(0, 0%, 98%);
+    height: 100vh;
+}
+
+/* .navbar{
+    display: flex;
+    justify-content: space-around;
+    right: 30px;
+    position: relative;
+}
+.list_items ul{
+    display: flex;
+    font-weight: 800;
+    list-style: none;
+    justify-content: space-between;
+  
+}
+.list_items ul li{
+    color:  hsl(0, 0%, 41%);
+    padding: 10px;
+}
+
+.register{
+    display: flex;
+    margin-right: 5px;
+    right: -13rem;
+    position: relative;
+
+
+} 
+.register ul li{
+    padding: 10px;
+    list-style: none;
+    color:  hsl(0, 0%, 41%);
+    font-weight: 800;
+    position: relative;
+    left: -2rem;
+}
+.btn{
+    padding: 10px 15px 10px 15px;
+    background-color: transparent;
+    border-radius: 12px;
+    font-weight: 800;
+    border: 1.5px solid  hsl(0, 0%, 41%);
+    color:  hsl(0, 0%, 41%);
+    font-size: 14px;
+}
+nav img{
+bottom: -40px;
+left: 30px;
+position: relative;
+
+}
+.dropdown_menu{
+    background-color: white;
+    text-decoration: none;
+    height: 150px;
+    width: 100px;
+   
+}
+.dropdown_menu li{
+  display: block;
+} */
+
+.body_container{
+    display: flex;
+}
+.right_side img{
+    height: 80vh;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+.left_side h1{
+ font-size: 5em;
+ font-weight: 900;
+}
+.left_side{
+   margin-left: 12.5rem; 
+   top: 5rem;
+   position: relative;
+}
+.left_side p{
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+    font-weight: 700;
+    margin-top: 2rem;
+}
+.left_side button{
+    padding: 15px 20px 15px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-top: 3rem;
+    border: none;
+}
+.footer img{
+    padding: 20px;
+   width: 5rem;
+    margin-top: 4rem;
+}

@@ -1,0 +1,115 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    right: 30px;
+    position: relative;
+}
+.list_items ul{
+    display: flex;
+    font-weight: 800;
+    list-style: none;
+    justify-content: space-between;
+    cursor: grab;
+ 
+  
+}
+.list_items ul li{
+    color:  hsl(0, 0%, 41%);
+    padding: 10px;
+}
+
+.register{
+    display: flex;
+    margin-right: 5px;
+    right: -13rem;
+    position: relative;
+
+
+} 
+.register ul li{
+    padding: 10px;
+    list-style: none;
+    color:  hsl(0, 0%, 41%);
+    font-weight: 800;
+    position: relative;
+    left: -2rem;
+}
+.btn{
+    padding: 10px 15px 10px 15px;
+    background-color: transparent;
+    border-radius: 12px;
+    font-weight: 800;
+    border: 1.5px solid  hsl(0, 0%, 41%);
+    color:  hsl(0, 0%, 41%);
+    font-size: 14px;
+}
+nav img{
+bottom: -40px;
+left: 30px;
+position: relative;
+
+}
+.dropdown_menu{
+    background-color: white;
+    height: 150px;
+    width: 110px;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 800;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+    z-index: 1;
+    align-items: center;
+    /* margin-right: 50px; */
+     left: -30px;
+     /* gap: 5px; */
+     box-shadow: -1px 2px 12px 0px rgba(188,178,209,0.75);
+     -webkit-box-shadow: -1px 2px 12px 0px rgba(188,178,209,0.75);
+     -moz-box-shadow: -1px 2px 12px 0px rgba(188,178,209,0.75);
+
+   
+}
+.dropdown-link{
+    text-decoration: none;
+    color:  hsl(0, 0%, 41%);;
+    margin-left: 10px;
+
+    /* gap: 5px; */
+    /* padding: 10px 10px 10px 10px; */
+    /* display: inline-block; */
+    /* margin-right: 50px; */
+    /* width: 20%;  */
+    /* margin-bottom: 20px; */
+}
+
+.list_items{
+    position: relative;
+}
+.company_dropdown{
+  position: absolute;
+  background-color: white;
+  height: 100px;
+  width: 90px;
+  position: absolute;
+  font-size: 12px;
+  font-weight: 800;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 10px;
+  z-index: 1;
+  align-items: center;
+  box-shadow: -1px 2px 12px 0px rgba(188,178,209,0.75);
+  -webkit-box-shadow: -1px 2px 12px 0px rgba(188,178,209,0.75);
+  -moz-box-shadow: -1px 2px 12px 0px rgba(188,178,209,0.75);
+
+}
+.link{
+    text-decoration: none;
+    color:  hsl(0, 0%, 41%);
+    margin-left: 10px;
+  
+
+}
